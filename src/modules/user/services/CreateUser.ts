@@ -18,6 +18,15 @@ export class CreateUser {
   }
 }
 
-// services nao tem ideia de qual tipo de ORM/Database vai ser usado
-// ele faz uso de uma interface que contem os metodos para ser usado no servico
+// [S]ingle Responsability principle
+// the service CreateUser tem a unica responsabilidade de criar usuario
+
+//[L]iskov substitution principle
+// a parti do momento que estou rebendo a interface IUserRepository
+// ou seja o contrato de quais funcionalidade (metodos) deve existir
+// nao interesa qual tipo de infraestrutura vai ser usada desde que
+// siga o contrato
+
 //[D]ependency inversion principle
+// nao estou depende diretamente da implementacao do repositorio para salvar o usuario
+// ele faz uso de uma interface que abstrai os metodos que seram usado para salvar o usuario
