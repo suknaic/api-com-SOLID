@@ -1,0 +1,27 @@
+SOLID UM PRINCIPIO COM 5 LETRAS SENDO CADA LETRA UM PRINCIPIO
+
+[S]ingle Responsability principle
+    determina que cada arquivo/classe deve ter apenas uma responsabilidade
+    uma unica responsabilidade que dizer que aquele arquivo deve execulta apenas
+    uma unica tarefa dentro da aplicação um exemplo de MVC controllers
+
+[O]pen closed principle
+  é um principio dificil de prever em aplicações sua aplicação esta
+  em que a classe deve ser aberta pra extensões e fechada para modificações
+  que dizer quando eu estender a classe vou aproveita tudo que ela tem sem
+  sobreescrever seus metodos
+
+[L]iskov substitution principle
+    tanto faz se elas herdam da mesma classe ou implementam uma interface em comum
+     elas são subtipos uma da outra. Ou seja, o programa que recebe esses
+     objetos não pode precisar saber qual o tipo exato ele está recebendo e tão
+     pouco precisar ser modificado por este motivo.
+
+[I]nterface segregation principle
+    nao precisamos criar interfaces muito robustas mas que ela se divida em
+    interfaces menores com caracteriscas semelhantes
+
+[D]ependency inversion principle
+    determina que as classes que realizam as acoes (controlers ) elas nao devem
+    depender de implementações elas dependem sempre de interface que sao formas
+    nao funcionais para definir a tipagem de uma classe
