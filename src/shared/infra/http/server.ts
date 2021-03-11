@@ -1,9 +1,8 @@
 import express from "express";
-import { router } from "./routes";
-
+import Routes from "./routes";
 const app = express();
 
 app.use(express.json());
-app.use(router);
+app.use(Routes);
 
-export { app };
+app.listen(3333);
