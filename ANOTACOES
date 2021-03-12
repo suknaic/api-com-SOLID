@@ -24,4 +24,9 @@ SOLID UM PRINCIPIO COM 5 LETRAS SENDO CADA LETRA UM PRINCIPIO
 [D]ependency inversion principle
     determina que as classes que realizam as acoes (controlers ) elas nao devem
     depender de implementações elas dependem sempre de interface que sao formas
-    nao funcionais para definir a tipagem de uma classe
+    nao funcionais para defini r a tipagem de uma classe
+
+
+Entities = entidades da aplicacao abstracoes do mundo real
+repositories = sao classes especificas que fazem a comunicacao das funcionalidades
+               da aplicacao com a infraEstrutra(banco de dados)
